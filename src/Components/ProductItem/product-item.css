@@ -1,0 +1,97 @@
+.product-item {
+    width: calc(20% - 22px);
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 15px;
+    gap: 20px;
+}
+
+.product-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product-header .brand img {
+    max-height: 15px;
+    max-width: 60px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.product-header button img {
+    width: 22px;
+    height: 21px;
+}
+
+.product-image {
+    height: 176px;
+    position: relative;
+    width: 100%;
+}
+
+.product-image img {
+    object-fit: contain;
+}
+
+.product-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.product-body .category-name {
+    color: rgba(40,40,40,.4);
+    font-family: Mardoto-Bold;
+    font-size: 10px;
+    height: 28px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    word-break: break-word;
+}
+
+.product-body .product-name {
+    font-size: 13px;
+    height: 32px;
+    line-height: 16px;
+    max-width: 200px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.product-body .product-price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product-body .product-price-month {
+    color: #444;
+    font-size: 12px;
+    margin-top: 10px;
+    width: -webkit-max-content;
+    width: max-content;
+}
+
+.product-body .cardBtn {
+    align-items: center;
+    background-color: #d10000;
+    border-radius: 5px;
+    -webkit-column-gap: 6px;
+    column-gap: 6px;
+    cursor: pointer;
+    display: flex;
+    padding: 10px 11px 10px 28px;
+    color: #ffffff;
+    width: 98px;
+    background-image: url("../../assets/images/shopping-cart-with-money-48.png");
+    background-repeat: no-repeat;
+    background-position: 8%;
+    background-size: 15px;
+    font-size: 11px;
+    margin-top: 10px;
+}

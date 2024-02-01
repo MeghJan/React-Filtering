@@ -1,0 +1,11 @@
+.filter-part {
+    background-color: #f7f7fb;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 248px;
+    min-width: 248px;
+    padding: 24px 18px;
+    row-gap: 16px;
+    width: 100%;
+}
